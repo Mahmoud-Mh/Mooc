@@ -97,7 +97,7 @@ penguins[numerical_columns].hist(bins=20, figsize=(10, 4))
 - Histogrammes pour comprendre la distribution
 - Aide à identifier les patterns et anomalies
 
-![Exemple de visualisation des données - Culmen Depth](Culmen%20Depth.png)
+![Exemple de visualisation des données - Culmen Depth](../images/Culmen%20Depth.png)
 
 ---
 
@@ -213,9 +213,9 @@ X_train_scaled = scaler.fit_transform(X_train)
   - Écart-type = 1
 - Formule : `(valeur - moyenne) / écart-type`
 
-![Transformation des données avec fit](transformer_fitdata.png)
+![Transformation des données avec fit](../images/transformer_fitdata.png)
 
-![Application de la transformation](transformer_transformer_data.png)
+![Application de la transformation](../images/transformer_transformer_data.png)
 
 #### **Pourquoi normaliser ?**
 1. **Algorithmes basés sur la distance** (comme KNN) : toutes les features contribuent équitablement
@@ -241,9 +241,9 @@ model = make_pipeline(StandardScaler(), LogisticRegression())
 1. **Fit** : apprend les paramètres de scaling sur train, puis entraîne le modèle
 2. **Predict** : applique le même scaling sur test, puis prédit
 
-![Pipeline - Phase d'entraînement](pipeline_fit_data.png)
+![Pipeline - Phase d'entraînement](../images/pipeline_fit_data.png)
 
-![Pipeline - Phase de prédiction](pipeline_predictdata.png)
+![Pipeline - Phase de prédiction](../images/pipeline_predictdata.png)
 
 ---
 
@@ -264,7 +264,7 @@ La validation croisée **répète** l'entraînement/test avec différentes divis
 4. Répète k fois en changeant la partie test
 5. Calcule la moyenne des k performances
 
-![Illustration de la validation croisée K-Fold](kfold.png)
+![Illustration de la validation croisée K-Fold](../images/kfold.png)
 
 ### Métaphore
 C'est comme passer plusieurs examens blancs avant l'examen final :
@@ -412,7 +412,7 @@ model = make_pipeline(
 3. **Concaténation** : combine les résultats en un seul dataset
 4. **Entraînement** : entraîne le modèle sur les données préprocessées
 
-![ColumnTransformer en action](colkumnTransformer.png)
+![ColumnTransformer en action](../images/colkumnTransformer.png)
 
 ---
 

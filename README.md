@@ -85,6 +85,27 @@ Ce cours vise à fournir une compréhension complète et pratique du Machine Lea
 - **Matplotlib** : Visualisation de données
 - **NumPy** : Calculs numériques
 
+## 📁 Organisation du projet
+
+```
+Mooc/
+├── README.md                                    # Documentation principale
+├── images/                                      # Toutes les images des cours
+│   ├── Culmen Depth.png
+│   ├── colkumnTransformer.png
+│   ├── kfold.png
+│   ├── pipeline_fit_data.png
+│   ├── pipeline_predictdata.png
+│   ├── transformer_fitdata.png
+│   ├── transformer_transformer_data.png
+│   ├── ValidationCurveDisplay.png
+│   └── numberOfSamplesInTrainingSet.png
+├── ml_report_Module1/                           # Module 1 - Bases du ML
+│   └── ml_report_Module1.md
+└── ml_report_Module2/                           # Module 2 - Validation avancée
+    └── ml_report_module2.md
+```
+
 ## 📖 Comment utiliser ce cours
 
 1. **Commencez par le Module 1** pour acquérir les bases

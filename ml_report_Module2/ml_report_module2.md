@@ -114,7 +114,7 @@ _ = disp.ax_.set(
 
 Courbe de validation montrant l'erreur d'entraînement et de test en fonction de max_depth
 
-![Courbe de validation](ValidationCurveDisplay.png)
+![Courbe de validation](../images/ValidationCurveDisplay.png)
 
 ### Interprétation de la courbe de validation
 
@@ -210,7 +210,7 @@ _ = display.ax_.set(xscale="log", title="Learning curve for decision tree")
 
 Courbe d'apprentissage montrant l'évolution des erreurs en fonction du nombre d'échantillons
 
-![Courbe d'apprentissage](numberOfSamplesInTrainingSet.png)
+![Courbe d'apprentissage](../images/numberOfSamplesInTrainingSet.png)
 
 ### Interprétation de la courbe d'apprentissage
 
