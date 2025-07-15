@@ -1,0 +1,12 @@
+# Exclure tous les fichiers d'images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+
+# Mais inclure les fichiers README et markdown
+!README.md
+!*.md 
